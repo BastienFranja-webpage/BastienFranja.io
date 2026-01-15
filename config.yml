@@ -1,1 +1,18 @@
+title: Bastien Franja - Portfolio
+email: votre.email@exemple.com
+description: >-
+  Portfolio professionnel présentant mes projets et compétences techniques
+baseurl: "" 
+# Important : utilisez VOTRE domaine ici
+url: "https://bastienfranja.io"  # ou "http://bastienfranja.io" si sans SSL
+github_username: votre-username-github  # votre vrai nom d'utilisateur GitHub
 
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+
+name: Bastien Franja
+
+exclude:
+  - tmp/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
