@@ -3,17 +3,13 @@ email: Bastien.franja@gmail.com
 description: >-
   Portfolio professionnel présentant mes projets et compétences techniques
 baseurl: "" 
-# Important : utilisez VOTRE domaine ici
-url: "https://bastienfranja.io"  # ou "http://bastienfranja.io" si sans SSL
-github_username: BastienFranja  # Remplacez par votre vrai username GitHub
+url: "https://bastienfranja.github.io"
+github_username: BastienFranja
 
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
-
 name: Bastien Franja
 
-# --- AJOUTEZ CES SECTIONS CI-DESSOUS ---
-
-# Configuration de la navigation
+# --- NAVIGATION ---
 navbar_links:
   - title: "Accueil"
     url: "/"
@@ -26,7 +22,6 @@ navbar_links:
   - title: "Contact"
     url: "/contact"
 
-# Pages à inclure dans le header
 header_pages:
   - about.md
   - projects.md
@@ -34,7 +29,6 @@ header_pages:
 
 # Configuration du thème
 startbootstrap-clean-blog:
-  # Social media (optionnel)
   social:
     - platform: "github"
       url: "https://github.com/BastienFranja"
@@ -43,7 +37,6 @@ startbootstrap-clean-blog:
     - platform: "envelope"
       url: "mailto:Bastien.franja@gmail.com"
   
-  # Navigation
   navigation:
     - name: "Accueil"
       url: "/"
@@ -56,28 +49,17 @@ startbootstrap-clean-blog:
     - name: "Contact"
       url: "/contact"
   
-  # Footer
   footer:
     copyright: "© 2024 Bastien Franja"
     show_social: true
 
-# Configuration Jekyll
-permalink: /:year/:month/:day/:title/
-timezone: Europe/Paris
-
-# Plugins (optionnel mais recommandé)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exclusions
 exclude:
   - tmp/
   - vendor/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - ".env"
