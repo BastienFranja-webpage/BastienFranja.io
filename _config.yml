@@ -9,6 +9,10 @@ github_username: BastienFranja
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 name: Bastien Franja
 
+# Ajouter le CSS personnalisé
+header_includes:
+  - custom.css
+  
 # --- NAVIGATION ---
 navbar_links:
   - title: "Accueil"
