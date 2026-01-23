@@ -3,6 +3,7 @@ layout: page
 title: "Projets"
 description: "Mes projets en bioinformatique, data science et développement"
 background: "/img/projects-bg.jpg"
+permalink: /projects/
 ---
 
 # Mes Projets
