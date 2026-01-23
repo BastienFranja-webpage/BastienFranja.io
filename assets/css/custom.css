@@ -1,0 +1,50 @@
+/* Palette Bio-Numérique Bastien Franja */
+:root {
+  --primary-green: #1b5e20;   /* Vert foncé recherche */
+  --medium-green: #2e7d32;    /* Vert moyen */
+  --accent-green: #4caf50;    /* Vert vif scientifique */
+  --light-bg: #f1f8e9;       /* Fond vert très clair */
+}
+
+/* Harmonisation des titres */
+h1, h2, h3, h4 {
+  color: var(--primary-green) !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Style des cartes de projets sur l'index */
+.project-card {
+  background: white !important;
+  border-top: 4px solid var(--accent-green) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(27, 94, 32, 0.15) !important;
+}
+
+/* Style des tags de compétences */
+.tech-tag {
+  background: var(--light-bg);
+  color: var(--primary-green);
+  border: 1px solid var(--accent-green);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Boutons personnalisés */
+.btn-bio {
+  background-color: var(--medium-green) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn-bio:hover {
+  background-color: var(--primary-green) !important;
+}
