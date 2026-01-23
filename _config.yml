@@ -6,25 +6,26 @@ baseurl: ""
 url: "https://bastienfranja.github.io"
 github_username: BastienFranja
 
+# Configuration du thème
+startbootstrap-clean-blog:
+  navigation:
+    - name: "Accueil"
+      url: "/"
+    - name: "À propos"
+      url: "/about/"
+    - name: "Projets"
+      url: "/projects/"
+    - name: "Blog"
+      url: "/posts/"
+    - name: "Contact"
+      url: "/contact/"
+      
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 name: Bastien Franja
 
 # Ajouter le CSS personnalisé
 header_includes:
   - custom.css
-  
-# --- NAVIGATION ---
-navbar_links:
-  - title: "Accueil"
-    url: "/"
-  - title: "À propos"
-    url: "/about"
-  - title: "Projets"
-    url: "/projects"
-  - title: "Blog"
-    url: "/posts"
-  - title: "Contact"
-    url: "/contact"
 
 header_pages:
   - about.md
