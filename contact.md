@@ -3,6 +3,7 @@ layout: page
 title: "Contact"
 description: "Prenez contact avec moi pour discuter de projets ou opportunités"
 background: "/img/contact-bg.jpg"
+permalink: /Contact/
 ---
 
 <div style="max-width: 700px; margin: 0 auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.1);">
